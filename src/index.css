@@ -21,7 +21,7 @@
 
 @layer components {
     .logo {
-        @apply text-2xl font-open-sans font-bold  text-some-blue-shade
+        @apply text-2xl font-open-sans font-bold 
     }
     .contact_button {
         @apply py-5 px-5 bg-some-blue-shade text-white rounded-md hover:bg-some-lighter-blue-shade
@@ -143,3 +143,5 @@
     @apply bg-background text-foreground;
     }
 }
+
+
