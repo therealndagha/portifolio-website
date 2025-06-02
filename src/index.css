@@ -6,7 +6,7 @@
 @theme {
     --color-chestnut: #973f29;
     --color-some-blue-shade: #15b2eb;
-    --color-some-lighter-blue-shade: #24b9f0;
+    --color-some-lighter-blue-shade: #2cbdf2;
     --font-roboto: 'Roboto' ,sans-serif;
     --font-inter: 'Inter' ,sans-serif;
     --font-open-sans: 'Open Sans', sans-serif;
@@ -21,10 +21,28 @@
 
 @layer components {
     .logo {
-        @apply text-2xl font-open-sans font-bold 
+        @apply text-xl font-open-sans font-bold text-blue-950
     }
     .contact_button {
-        @apply py-5 px-5 bg-some-blue-shade text-white rounded-md hover:bg-some-lighter-blue-shade
+        @apply px-3 py-1.5 font-bold  bg-some-blue-shade text-white rounded-md hover:bg-some-lighter-blue-shade
+    }
+    .navlink {
+        @apply font-open-sans font-bold text-blue-950 hover:text-blue-700
+    }
+    .hero-hello-message {
+        @apply font-anton text-some-blue-shade w-40 text-2xl border-2 border-blue-950 py-2.5 px-1
+    }
+    .container-hero {
+        
+    }
+    .hero-description-message {
+          @apply font-inter text-blue-950 text-3xl w-96 leading-relaxed
+    }
+    .hero-description-message2 {
+        @apply font-inter text-sm w-96 leading-relaxed text-slate-700 tracking-normal
+    }
+    .hero-description-message-span {
+          @apply font-anton text-blue-950 font-bold tracking-widest
     }
 }
 
