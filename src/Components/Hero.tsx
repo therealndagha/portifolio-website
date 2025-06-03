@@ -1,11 +1,11 @@
-
+import { HiOutlineHand } from "react-icons/hi";
 const Hero = () =>{
     return (
-        <div className="flex flex-row items-center justify-center container-hero mt-10 sm:mt-10 md:mt-0">
+        <div className="min-h-screen flex flex-row items-center justify-center container-hero">
             {/**Welcome message */}
             <div className="flex flex-col space-y-5">
                <div>
-                 <h3 className="hero-hello-message">Hello there!</h3>
+                 <h3 className="hero-hello-message">Hello there! <HiOutlineHand className="inline"/></h3>
                </div>
                 <div>
                     <p className="hero-description-message">I'm Ndagha Kang'oma. <span className="hero-description-message-span">Software Developer</span> based in Lilongwe, Malawi.</p>

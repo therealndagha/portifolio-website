@@ -44,6 +44,9 @@
     .hero-description-message-span {
           @apply font-anton text-blue-950 font-bold tracking-widest
     }
+    .other-sections-container {
+        @apply mt-10 ml-10 mr-10
+    }
 }
 
 @theme inline {
