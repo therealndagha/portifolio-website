@@ -32,9 +32,7 @@
     .hero-hello-message {
         @apply font-anton text-some-blue-shade w-40 text-2xl border-2 border-blue-950 py-2.5 px-1
     }
-    .container-hero {
-        
-    }
+     
     .hero-description-message {
           @apply font-inter text-blue-950 text-3xl w-96 leading-relaxed
     }

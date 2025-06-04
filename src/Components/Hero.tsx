@@ -1,7 +1,7 @@
 import { HiOutlineHand } from "react-icons/hi";
 const Hero = () =>{
     return (
-        <div className="min-h-screen flex flex-row items-center justify-center container-hero">
+        <div className="flex flex-row items-center justify-center container-hero">
             {/**Welcome message */}
             <div className="flex flex-col space-y-5">
                <div>
