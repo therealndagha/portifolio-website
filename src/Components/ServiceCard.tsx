@@ -10,7 +10,7 @@ type ServiceCardPropsType = {
 
 
 
-const ServiceCard = ({description, icon, id, imageSrc, name}: ServiceCardPropsType) =>{
+const ServiceCard = ({description, id, imageSrc, name}: ServiceCardPropsType) =>{
     return (
       <div className="flex flex-row space-x-5">
            <div className={`hidden md:block ${id%2 === 0 ? `order-2`: `order-1` } `}>
@@ -24,7 +24,7 @@ const ServiceCard = ({description, icon, id, imageSrc, name}: ServiceCardPropsTy
                 <div className="block md:hidden  items-center justify-center">
                      <img src={imageSrc} alt={name} className="h-auto w-60 object-cover ml-16" />
                 </div>
-                <p className="w-72 ml-10 md:ml-16 text-slate-600 font-inter">{description}</p>
+                <p className="w-72 ml-10 md:ml-16 text-slate-600 text-sm font-inter">{description}</p>
                 <div className="text-center">
                      <button className="bg-some-blue-shade text-white rounded-md px-2.5 font-anton focus:ring-2 focus:ring-blue-800  hover:bg-some-lighter-blue-shade">Learn More  </button>
                 </div>

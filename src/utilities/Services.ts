@@ -18,7 +18,7 @@ export const services = [
     },
     {
         id: 3,
-        name: 'Web Design and Development Crash Course',
+        name: 'Web Design and Development Tutoring',
         imageSrc: 'crash-course.jpg',
         description: 'I want to give back to the community by sharing my knowledge. Let me help you become a developer just like me. In this crash course I will walk you through the basics of modern website development. I will teach you the basics of HTML, CSS and Javascript.',
         icon: ''
