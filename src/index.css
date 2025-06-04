@@ -37,7 +37,7 @@
           @apply font-inter text-blue-950 text-3xl w-96 leading-relaxed
     }
     .hero-description-message2 {
-        @apply font-inter text-sm w-96 leading-relaxed text-slate-700 tracking-normal
+        @apply font-inter text-sm w-72 leading-relaxed text-slate-700 tracking-normal
     }
     .hero-description-message-span {
           @apply font-anton text-blue-950 font-bold tracking-widest
