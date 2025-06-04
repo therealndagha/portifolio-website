@@ -18,7 +18,7 @@ const SkillCard = ({category, description, id,skills}: SkillCardPropsType) =>{
                         <p className="text-slate-600 font-inter text-sm text-center">{description}</p>
                 </div>
                 
-               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 space-y-5 space-x-10">
+               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 space-y-5 space-x-10 items-center justify-center">
                 {/**skills render here */}
                 {
                     skills.map((skill) => ( <button key={skill}><span className="text-sm font-roboto text-slate-800 p-3">{skill}</span> </button> )  )
