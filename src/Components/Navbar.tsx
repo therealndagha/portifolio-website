@@ -1,5 +1,5 @@
 import { navLinks } from "@/utilities/NavLinks";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent,  SheetHeader,  SheetTrigger } from "./ui/sheet";
 import { FaBars } from "react-icons/fa";
 const Navbar = () =>{
     return (
