@@ -1,13 +1,14 @@
 import { HiOutlineHand } from "react-icons/hi";
 const Hero = () =>{
     return (
-        <div className="flex flex-row items-center justify-center other-sections-container">
-            {/**Welcome message */}
+        <div className="other-sections-container">
+           <div className="flex flex-col md:flex-row md:items-center md:justify-center">
+                        {/**Welcome message */}
             <div className="flex flex-col space-y-5">
                <div>
                  <h3 className="hero-hello-message">Hello there! <HiOutlineHand className="inline"/></h3>
                </div>
-                <div>
+                <div className="">
                     <p className="hero-description-message">I'm Ndagha Kang'oma. <span className="hero-description-message-span">Software Developer</span> based in Lilongwe, Malawi.</p>
                 </div>
                 <div>
@@ -21,6 +22,8 @@ const Hero = () =>{
             <div className="hidden md:block  items-center justify-center">
                 <img src="ndagha-no-bg.png" className="w-80" alt="ndagha" />
             </div>
+            </div>
+         
         </div>
     )
 }
