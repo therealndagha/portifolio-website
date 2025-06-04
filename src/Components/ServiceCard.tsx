@@ -19,7 +19,7 @@ const ServiceCard = ({description, id, imageSrc, name}: ServiceCardPropsType) =>
            <div className={`flex flex-col space-y-10 ${id%2 === 0 ? `order-1`: `order-2`} `}>
                 <div className="flex flex-row space-x-5  items-center justify-center">
                     <span className="bg-some-blue-shade px-1.5  text-white rounded-md">{id}</span>
-                     <h2 className="text-blue-950 font-inter font-bold">{name}</h2>
+                     <h2 className="text-blue-950 font-inter text-sm font-bold">{name}</h2>
                 </div>
                 <div className="block md:hidden  items-center justify-center">
                      <img src={imageSrc} alt={name} className="h-auto w-60 object-cover ml-16" />
