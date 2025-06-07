@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import Services from "./Components/Services";
 import Skills from "./Components/Skills";
 
@@ -14,6 +15,7 @@ function App (){
       <About/>
       <Services/>
       <Skills/>
+      <Projects/>
       
     </main>
   )
