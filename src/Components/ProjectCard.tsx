@@ -16,15 +16,18 @@ const ProjectCard = ({id, title, overview, responsibilities, achievements}: Proj
              </div>
              <div className="flex flex-col  md:flex-row items-center justify-center space-y-2.5 md:space-x-10 max-w-lg">
                   <h3 className="self-start text-blue-950 font-inter font-bold text-sm">Overview:</h3>
-                  <p className="text-slate-600 font-inter">{overview}</p>
+                  <p className="text-slate-600 text-sm font-inter">{overview}</p>
              </div>
              <div className="flex flex-col  md:flex-row items-center justify-center space-y-2.5 md:space-x-10 max-w-lg">
                   <h3 className="self-start text-blue-950 font-inter font-bold text-sm">Responsibilities:</h3>
-                  <p className="text-slate-600 font-inter">{responsibilities}</p>
+                  <p className="text-slate-600 font-inter text-sm">{responsibilities}</p>
              </div>
              <div className="flex  flex-col md:flex-row  items-center justify-center space-y-2.5 md:space-x-10 max-w-lg">
                   <h3 className="self-start text-blue-950 font-inter font-bold text-sm">Achievements:</h3>
-                  <p className="text-slate-600 font-inter">{achievements}</p>
+                  <p className="text-slate-600 font-inter  text-sm">{achievements}</p>
+             </div>
+             <div className="flex items-center justify-center">
+                   <button className="bg-some-blue-shade text-white hover:bg-some-lighter-blue-shade rounded-md px-1.5 font-anton"><a href="">View Project</a></button>
              </div>
         </div>
     )
