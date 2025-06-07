@@ -7,7 +7,7 @@ type ProjectCardProps = {
     link?: string | null
 }
 
-const ProjectCard = ({id, title, overview, responsibilities, achievements, link}: ProjectCardProps)=>{
+const ProjectCard = ({id, title, overview, responsibilities, achievements}: ProjectCardProps)=>{
     return (
         <div className="flex flex-col space-y-5">
             <div className="flex items-center justify-center space-x-5">
