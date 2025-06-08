@@ -39,7 +39,7 @@ const Navbar = () =>{
                         {
                             navLinks.map((singleNavLinks)=>(
                                 <div key={singleNavLinks.title}>
-                                    <button><a href={singleNavLinks.title} className="navlink">{singleNavLinks.title}</a></button>
+                                    <button onClick={()=>{navigate(`/${singleNavLinks.href}`)}} className="navlink">{singleNavLinks.title}</button>
                                 </div>
                             ))
                         }
