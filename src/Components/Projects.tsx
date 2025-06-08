@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () =>{
     return (
-        <section className="other-sections-container" id="projects">
+        <section className="other-sections-container">
             <div className="flex flex-col items-center justify-center space-y-5">
                 <h1 className="text-2xl font-anton text-blue-950">Projects and Achievements</h1>
                  <p className="font-opens-sans text-slate-600 text-center text-lg max-w-lg">Throughout the years I have been involved in a number of projects that have showcasted my ability to apply Computer Science to solve real world problems.</p>

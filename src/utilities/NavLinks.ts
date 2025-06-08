@@ -10,15 +10,15 @@ type navLinksArrayType = navLinkType[];
 export const navLinks:navLinksArrayType = [
     {
         title: 'Services',
-        href: '#services'
+        href: 'services'
     },
     {
         title: 'About',
-        href: '#about',
+        href: 'about',
 
     },
     {
         title: 'Contacts',
-        href: '#contacts'
+        href: 'contacts'
     }
 ]

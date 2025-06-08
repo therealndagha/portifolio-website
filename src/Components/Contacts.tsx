@@ -2,7 +2,7 @@
 
 const Contacts = () => {
   return (
-    <section className="bg-some-blue-shade  font-inter text-white">
+    <section className="bg-some-blue-shade  font-inter text-white" id="contacts">
         <div className="flex flex-col md:flex-row items-center justify-center ">
              <div className="p-10 space-y-2.5">
                   <div>

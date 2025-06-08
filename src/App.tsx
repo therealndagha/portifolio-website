@@ -1,23 +1,19 @@
-import About from "./Components/About";
-import Contacts from "./Components/Contacts";
-import Hero from "./Components/Hero";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
-import Services from "./Components/Services";
-import Skills from "./Components/Skills";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import AboutPage from "./pages/About";
+import ServicesPage from "./pages/Services";
+import ContactsPage from "./pages/ContactsPage";
 
 
 function App (){
   return (
     <main>
-      
-      <Navbar/>
-      <Hero/>  
-      <About/>
-      <Services/>
-      <Skills/>
-      <Projects/>
-      <Contacts/>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<AboutPage/>} />
+          <Route path="/services" element={<ServicesPage/>}/>
+          <Route path="/contacts" element={<ContactsPage/>}/>
+        </Routes>
     </main>
   )
 }
